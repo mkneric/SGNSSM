@@ -1,7 +1,7 @@
 # Liste des membres
 
--   Sedric
--   Israel
--   Lahna
+-   Eric
+-   
+-   
 
 ## Les liens
