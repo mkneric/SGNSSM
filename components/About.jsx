@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import Banniere from './Banniere';
 
 export default function About() {
-  // ⏬ Scroll automatique vers #about au chargement de la page
+  // Scroll automatique vers #about au chargement de la page
   useEffect(() => {
     const target = document.getElementById('about');
     if (target) {
@@ -28,7 +28,7 @@ export default function About() {
         <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
             <Image
-              src="/img/about.jpg"
+              src="/img/img-about.webp"
               alt="À propos SGNSSM"
               width={600}
               height={400}

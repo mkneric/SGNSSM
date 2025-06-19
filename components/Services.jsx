@@ -43,7 +43,7 @@ export default function Services() {
     },
   ];
 
-  // ⏬ Scroll automatique vers #services au chargement
+  // Scroll automatique vers #services au chargement
   useEffect(() => {
     const target = document.getElementById('services');
     if (target) {

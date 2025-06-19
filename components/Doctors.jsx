@@ -8,28 +8,28 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/f
 export default function Doctors() {
   const doctors = [
     {
-      name: 'Dr. Claire Bouchard',
+      name: 'Dr. Clément Bouchard',
       role: 'Psychologue clinicienne',
-      image: '/img/doctors/doctor-1.jpg',
+      image: '/img/img-docteur1.webp',
     },
     {
       name: 'Dr. Karim Benyahia',
       role: 'Psychiatre spécialisé en troubles anxieux',
-      image: '/img/doctors/doctor-2.jpg',
+      image: '/img/img-docteur2.webp',
     },
     {
       name: 'Dre. Sophie Tremblay',
       role: 'Neuropsychologue',
-      image: '/img/doctors/doctor-3.jpg',
+      image: '/img/img-docteur3.webp',
     },
     {
       name: 'Dr. Émile Lefebvre',
       role: 'Thérapeute familial',
-      image: '/img/doctors/doctor-4.jpg',
+      image: '/img/img-docteur4.webp',
     },
   ];
 
-  // ⏬ Scroll fluide vers #doctors au chargement
+  // Scroll fluide vers #doctors au chargement
   useEffect(() => {
     const target = document.getElementById('doctors');
     if (target) {
