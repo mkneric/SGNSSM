@@ -12,7 +12,7 @@ export default function CallToAction() {
           La santé mentale est essentielle au bien-être global. N’attendez pas pour demander du soutien.
         </p>
         <Link
-          href="/appointment"
+          href="/loginpage"
           className="inline-block bg-white text-[#2563eb] font-semibold px-6 py-3 rounded hover:bg-gray-100 transition"
         >
           Prendre un rendez-vous

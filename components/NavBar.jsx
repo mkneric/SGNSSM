@@ -1,5 +1,3 @@
-'use client';
-
 import { useState } from 'react';
 import Link from 'next/link';
 
@@ -30,12 +28,12 @@ export default function NavBar() {
         ))}
       </nav>
 
-      {/* CTA bouton */}
+      {/* Nouveau bouton Connexion / Inscription */}
       <Link
-        href="/appointment"
+        href="/loginpage"
         className="hidden md:inline-block bg-[#2563eb] text-white px-4 py-2 rounded text-sm hover:bg-[#1d4ed8]"
       >
-        Prendre un rendez-vous
+        Connexion / Inscription
       </Link>
 
       {/* Menu mobile */}
@@ -59,12 +57,12 @@ export default function NavBar() {
             </Link>
           ))}
           <Link
-            href="/appointment"
-            onClick={() => setIsOpen(false)}
-            className="block mt-4 bg-[#2563eb] text-white text-center py-2 rounded hover:bg-[#1d4ed8]"
+            href="/loginpage"
+            className="hidden md:inline-block bg-[#2563eb] text-white px-4 py-2 rounded text-sm hover:bg-[#1d4ed8]"
           >
-            Prendre un rendez-vous
+            Connexion / Inscription
           </Link>
+
         </div>
       )}
     </div>
